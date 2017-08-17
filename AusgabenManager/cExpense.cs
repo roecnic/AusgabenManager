@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace AusgabenManager {
     class cExpense {
-        private string fCategoryName;
+        private int fID;
 
-        public string CategoryName {
-            get { return fCategoryName; }
-            set { fCategoryName = value; }
+        public int ID {
+            get { return fID; }
+        }
+
+        private string fExpenseDesc;
+
+        public string ExpenseDesc {
+            get { return fExpenseDesc; }
+            set { fExpenseDesc = value; }
         }
 
         private int fCategoryID;
@@ -26,9 +32,11 @@ namespace AusgabenManager {
             set { fAmount = value; }
         }
 
-        public cExpense(int pID, string pCategoryName, double pAmount) {
-            fCategoryID = pID;
-            fCategoryName = pCategoryName;
+        public cExpense(int pID, string pExpenseDesc, int pCategoryID, double pAmount) {
+            fID = pID;
+            fExpenseDesc = pExpenseDesc;
+            fCategoryID = pCategoryID;
+            fAmount = pAmount;
         }
     }
 }

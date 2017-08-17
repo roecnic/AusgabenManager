@@ -33,6 +33,9 @@
             this.btnCreateNewExpense = new System.Windows.Forms.Button();
             this.lbxCategories = new System.Windows.Forms.ListBox();
             this.lbxExpenses = new System.Windows.Forms.ListBox();
+            this.btnAddCategory = new System.Windows.Forms.Button();
+            this.btnDeleteCategory = new System.Windows.Forms.Button();
+            this.btnDeleteExpense = new System.Windows.Forms.Button();
             this.gbxNewExpense.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -116,22 +119,52 @@
             this.lbxCategories.FormattingEnabled = true;
             this.lbxCategories.Location = new System.Drawing.Point(13, 182);
             this.lbxCategories.Name = "lbxCategories";
-            this.lbxCategories.Size = new System.Drawing.Size(120, 173);
+            this.lbxCategories.Size = new System.Drawing.Size(136, 173);
             this.lbxCategories.TabIndex = 7;
             // 
             // lbxExpenses
             // 
             this.lbxExpenses.FormattingEnabled = true;
-            this.lbxExpenses.Location = new System.Drawing.Point(172, 182);
+            this.lbxExpenses.Location = new System.Drawing.Point(156, 182);
             this.lbxExpenses.Name = "lbxExpenses";
-            this.lbxExpenses.Size = new System.Drawing.Size(120, 173);
+            this.lbxExpenses.Size = new System.Drawing.Size(136, 173);
             this.lbxExpenses.TabIndex = 8;
+            // 
+            // btnAddCategory
+            // 
+            this.btnAddCategory.Location = new System.Drawing.Point(13, 362);
+            this.btnAddCategory.Name = "btnAddCategory";
+            this.btnAddCategory.Size = new System.Drawing.Size(136, 23);
+            this.btnAddCategory.TabIndex = 7;
+            this.btnAddCategory.Text = "Kategorie hinzufügen";
+            this.btnAddCategory.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteCategory
+            // 
+            this.btnDeleteCategory.Location = new System.Drawing.Point(13, 391);
+            this.btnDeleteCategory.Name = "btnDeleteCategory";
+            this.btnDeleteCategory.Size = new System.Drawing.Size(136, 23);
+            this.btnDeleteCategory.TabIndex = 9;
+            this.btnDeleteCategory.Text = "Kategorie entfernen";
+            this.btnDeleteCategory.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteExpense
+            // 
+            this.btnDeleteExpense.Location = new System.Drawing.Point(156, 361);
+            this.btnDeleteExpense.Name = "btnDeleteExpense";
+            this.btnDeleteExpense.Size = new System.Drawing.Size(136, 53);
+            this.btnDeleteExpense.TabIndex = 10;
+            this.btnDeleteExpense.Text = "Ausgabe entfernen";
+            this.btnDeleteExpense.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(309, 375);
+            this.ClientSize = new System.Drawing.Size(309, 427);
+            this.Controls.Add(this.btnDeleteExpense);
+            this.Controls.Add(this.btnDeleteCategory);
+            this.Controls.Add(this.btnAddCategory);
             this.Controls.Add(this.lbxExpenses);
             this.Controls.Add(this.lbxCategories);
             this.Controls.Add(this.gbxNewExpense);
@@ -155,6 +188,9 @@
         private System.Windows.Forms.Button btnCreateNewExpense;
         private System.Windows.Forms.ListBox lbxCategories;
         private System.Windows.Forms.ListBox lbxExpenses;
+        private System.Windows.Forms.Button btnAddCategory;
+        private System.Windows.Forms.Button btnDeleteCategory;
+        private System.Windows.Forms.Button btnDeleteExpense;
     }
 }
 
