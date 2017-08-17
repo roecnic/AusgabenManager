@@ -1,1 +1,9 @@
 C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\bin\Debug\AusgabenManager.exe.config
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\bin\Debug\AusgabenManager.exe
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\bin\Debug\AusgabenManager.pdb
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\obj\Debug\AusgabenManager.csprojResolveAssemblyReference.cache
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\obj\Debug\AusgabenManager.Form1.resources
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\obj\Debug\AusgabenManager.Properties.Resources.resources
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\obj\Debug\AusgabenManager.csproj.GenerateResource.Cache
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\obj\Debug\AusgabenManager.exe
+C:\Users\NRoechter\Documents\Visual Studio 2015\Projects\AusgabenManager\AusgabenManager\obj\Debug\AusgabenManager.pdb

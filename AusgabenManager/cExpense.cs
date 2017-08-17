@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AusgabenManager {
-    class Expense {
+    class cExpense {
         private string fCategoryName;
 
         public string CategoryName {
@@ -26,7 +26,7 @@ namespace AusgabenManager {
             set { fAmount = value; }
         }
 
-        public Expense(int pID, string pCategoryName) {
+        public cExpense(int pID, string pCategoryName, double pAmount) {
             fCategoryID = pID;
             fCategoryName = pCategoryName;
         }
