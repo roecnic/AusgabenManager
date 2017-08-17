@@ -13,10 +13,17 @@ namespace AusgabenManager {
             set { fCategoryName = value; }
         }
 
-        public int fCategoryID;
+        private int fCategoryID;
 
         public int CategoryID {
             get { return fCategoryID; }
+        }
+
+        private double fAmount;
+
+        public double Amount {
+            get { return fAmount; }
+            set { fAmount = value; }
         }
 
         public Expense(int pID, string pCategoryName) {
